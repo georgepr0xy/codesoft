@@ -1,2 +1,7 @@
-for i in range (0,20):
- print(i)
+def sum():
+    a = input("entera")
+    b = input("enterb")
+    c= a+b
+    print(c)
+
+sum()
