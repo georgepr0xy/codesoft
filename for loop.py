@@ -1,7 +1,8 @@
 def sum():
-    a = input("entera")
-    b = input("enterb")
+    a = int(input("entera"))
+    b = int(input("enterb"))
     c= a+b
-    print(c)
+    return c
 
-sum()
+
+print(sum())
