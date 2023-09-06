@@ -1,8 +1,3 @@
-def sum():
-    a = int(input("entera"))
-    b = int(input("enterb"))
-    c= a+b
-    return c
-
-
-print(sum())
+user = int(input("Enter the number : "))
+for i in range(1,11):
+    print(f"{user}X{i}= ", user*i)
